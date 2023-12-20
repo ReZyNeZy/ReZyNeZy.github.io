@@ -26,3 +26,12 @@ h2
 {
     text-align:center;
 }
+
+
+.button
+{
+    border: black;
+    padding: 20px 32px;
+    text-align: center;
+    
+}
