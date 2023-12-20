@@ -27,11 +27,17 @@ h2
     text-align:center;
 }
 
+.buttonContainer
+{
+    position: absolute;
+}
 
 .button
 {
     border: black;
     padding: 20px 32px;
     text-align: center;
-    
+    position: relative;
+    transform: translateX(-50%);
+
 }
