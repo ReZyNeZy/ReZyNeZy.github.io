@@ -14,5 +14,7 @@ $(document).ready(function()
 
     $(".wrapper").tabs() // tabulation of classes taken 
 
+    $(".projects").tabs() // tabulaton of projects
+
 
 });

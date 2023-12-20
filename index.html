@@ -146,7 +146,38 @@ CREATED BY: Aidan MacKenzie
 
         <div class="projects">
 
-            <li><a href="Scheduler"> School Scheduler </a></li>
+            <ul class="tabs">
+                <li><a href="#Scheduler"> School Scheduler </a></li>
+                <li><a href="#Database Tool"> Java Database Tool </a></li>
+            </ul>
+
+            <div id="Scheduler">
+
+                <h2> School Scheduler w Weighted Grade Calulator</h2>
+
+                <ul>
+
+                    <li> Pages are written in HTML and include CSS Styling</li>
+                    <li> All schedule data is stored, retrieved, deleted, and edited using SQLite. Basic CRUDS menu for database interaction </li>
+                    <li> Python is used to calculate a weighted grade. Once grade is calculated, user can save their grades to a specific class</li>
+                    <li> The program uses cookies for a login function. </li>
+                    <li> Bottle is used for interfacing with the web </li>
+                </ul>
+
+            </div>
+
+            <div id="Database Tool">
+
+                <ul>
+
+                    <li> Java program designed to allow users to make personal databases and for administrators to remove potentailly troubling information.</li>
+                    <li> Program implements serialization to allow user information to only be accessed by the user and the admins. Information is stored using Java file I/O.</li>
+                    <li> Abstract Data types allow for common methods of an account to be shared accross both an admin class and a user class. </li>
+                    <li> Java file I/O also stores information such as usernames, password, database names, and the contents of each database.</li>
+
+                </ul>
+
+            </div>
 
         </div>
 
