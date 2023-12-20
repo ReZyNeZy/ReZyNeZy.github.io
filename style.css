@@ -3,17 +3,6 @@
 Style for Portfolio
 
 CREATED BY: Aidan MacKenzie
-CREATE DATE: 12/19/2023
-LAST COMMIT: 12/19/2023
-
-MODIFICATION HISTORY
-
-
-12 December, 2023
-    
-    Added style for header classed items
-
-    Added style for all h2 header tags
 
 */
 
@@ -23,7 +12,7 @@ MODIFICATION HISTORY
 
     font-weight: bold;
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 50px;
     text-align: center;
 
 }
@@ -31,4 +20,9 @@ MODIFICATION HISTORY
 h2
 {
     text-decoration: underline;
+}
+
+#center
+{
+    text-align:center;
 }
