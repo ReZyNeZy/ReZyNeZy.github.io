@@ -13,9 +13,16 @@ export default function About()
 
                     Aidan MacKenzie
                     <br className="hidden lg:inline-bnlock" />
-                    Computer Science Student at Indiana University Indianapolis
+                    Aspiring Developer and IT Professional
 
                 </h1>
+                <p className="mb-8 leading-relaxed">
+
+                    Current student at Indiana University Indianapolis, formerly IUPUI. 
+                    Studying for a bachelors degree in Computer Science and current member of Alpha Lamda Delta and Phi Epsilon Sigma honor societies with a
+                    3.5 avg GPA
+
+                </p>
                 <div className="flex justify-center">
 
                     <a href="#contact" className=" inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"L>
